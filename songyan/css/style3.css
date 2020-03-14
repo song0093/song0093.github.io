@@ -1,0 +1,154 @@
+footer{
+    background-color:rgb(10, 10, 9);
+      padding-top:10px;
+      padding-bottom:10px;
+      padding-right:15px;
+      padding-left:15px;
+      text-align: center;
+      color:white;
+      font-size: 100%;
+      margin: auto;
+      position: absolute;
+      overflow : hidden;
+  }
+body{
+    background-color: dimgray;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+fieldset{
+    border: medium none !important;
+   }
+   .form{
+     font-family:glibri;
+     max-width:110rem;
+   }
+   label{
+     margin-top:0px;
+     margin-bottom:0px;
+     margin-right:1rem;
+     margin-left:1rem;
+     font-size:1rem;
+   }
+   input[type=text],
+   text {
+     width: 100%;
+     padding: 12px 20px;
+     margin-top:1rem;
+     margin-bottom:1rem;
+     margin-right:1rem;
+     margin-left:1rem;
+     box-sizing: border-box;
+     background-color: White;
+     color: black;
+     border: 5px solid #00CCFF;
+     font-size:1rem;
+     padding:10px 20px;
+   }
+   textarea{
+     width: 100%;
+     height: 150px;
+     padding: 12px 20px;
+     box-sizing: border-box;
+     border: 5px solid #00CCFF;
+     border-radius: 4px;
+     background-color: white;
+     font-size: 16px;
+     resize: none;
+     margin-top:0.5rem;
+     margin-bottom:0.5rem;
+     margin-right:0.5rem;
+     margin-left:0.5rem;
+     font-size:1rem;
+   }
+   button[type=submit]{
+    background-color: white;
+    border: 5px solid #00CCFF;
+    color: black;
+    padding: 16px 135px;
+    text-decoration: none;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-right:1rem;
+    margin-left:2rem;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+  }
+   .map{
+       float: left;
+       margin-top: 15px;
+   }
+@media screen and (max-width:768px){
+    ul {
+        border: 2px solid;
+        list-style-type: none;
+        margin:  0;
+        padding: 0;
+        width: 100%;
+        background-color: #333;
+    }
+     
+    li a {
+        display: inline-block;
+        color: white;
+        padding: 18px 48%;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: white;
+        color: #555;
+    }
+    
+
+}
+@media screen and (min-width: 768px){
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 156px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.text{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    margin: 1%;
+    }
+    input[type=text],
+    text,
+    label,
+    textrea{
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:0.2rem;
+    margin-bottom:0.2rem;
+    margin-right:0.2rem;
+    margin-left:0.2rem;
+    }
+    fieldset{
+      margin:2rem;
+    }
+     button[type=submit]{
+       margin-left:4rem;
+  }
+}
