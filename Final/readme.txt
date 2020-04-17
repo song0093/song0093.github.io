@@ -1,0 +1,1 @@
+Your design must be optimized for a variety of browsers, devices and screens sizes. This is the biggest problem I have encountered. I checked many ways to solve the problem, and finally chose to use cacl () syntax. I learned a lot of knowledge on websites such as youtube, W3Cschool and Runnoob£¬I can use this syntax skillfully through this assignment.
